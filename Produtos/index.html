@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>Extração Labdados - Pedro Santana</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Pedro Santana</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href=".."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Página inicial
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../Experi%C3%AAncia%20Profissional/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Experiência Profissional
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../Academia/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Academia
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../Habilidades/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Habilidades
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../Quem%20sou%20eu/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Sobre mim
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href=".."
+                    class=" active 
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#projetos-collapse" aria-expanded="false">
+                    Projetos
+                </a>
+                <div class="collapse" id="projetos-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../Pipeline/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Dados metereológicos
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="./"
+            class=" active 
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Extração Labdados
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="drac-box">
+                <a href="../Contatos/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Contatos
+                </a>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+        <div class="container">
+            <div class="row row-preview">
+                <div class="col">
+                    <a href="../Pipeline/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="../Contatos/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover" style="padding-left: 3%;">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="etl-dados-de-produtos">ETL dados de Produtos</h1>
+<h2 id="objetivo-do-projeto">Objetivo do Projeto</h2>
+<p>Fomos contratados para sermos engenheiros de dados de um e-commerce. Disponibilizaremos os dados das vendas de 2020 até 2023 para os times de negócio. Esses dados estão disponíveis em uma API. Disponibilizaremos os dados no MongoDB Atlas para os times de Data Science. Após isso, faremos transformações nos dados e disponibilizaremos em uma tabela do MySQL para o time de BI.</p>
+<p>O time de Data Science precisa acessar os dados brutos da forma como estão na API. Para atender essa necessidade, nossa primeira tarefa será extrair esses dados e armazená-los em um banco de dados NoSQL</p>
+<p>Por outro lado, o time de BI requer dados mais organizados e estruturados. Para atendê-los, vamos ler os dados brutos, aplicar as transformações necessárias e disponibilizar esses dados em tabelas de um banco de dados relacional.</p>
+<h2 id="tecnologias-e-libs-utilizadas">Tecnologias e libs utilizadas</h2>
+<ul>
+<li>Python;</li>
+<li>MongoDB Atlas;</li>
+<li>MySQK;</li>
+<li>API REST;</li>
+</ul>
+<h2 id="01-importanto-as-libs-necessarias">01 - Importanto as libs necessárias</h2>
+<p>`sudo apt update
+sudo apt upgrade -y
+python3 --version
+python3 -V
+sudo apt install python3-pip -y
+sudo apt install python3-venv -y</p>
+<h1 id="criando-pasta-para-o-projeto">Criando pasta para o projeto</h1>
+<p>mkdir pipeline-python-mongo-mysql
+cd pipeline-python-mongo-mysql
+python3 -m venv venv
+source venv/bin/activate</p>
+<h1 id="instalando-bibliotecas">Instalando bibliotecas</h1>
+<p>pip install requests==2.31.0
+pip install pymongo==4.4.0
+pip install pandas==2.0.3
+pip install mysql-connector-python==8.0.33`</p>
+<h2 id="02-extraindo-os-dados-inserindo-no-mongodb-atlas-e-salvando-em-um-arquivo">02 - Extraindo os dados, inserindo no MongoDB Atlas e salvando em um arquivo.</h2>
+<p>`
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
+import requests</p>
+<p>def connect_mongo(uri):</p>
+<pre><code># Criar client e conectar no servidor
+client = MongoClient(uri, server_api=ServerApi('1'))
+
+# Enviar  ping para confirmar se a conexão foi bem sucedida
+try:
+    client.admin.command('ping')
+    print("Pinged your deployment. You successfully connected to MongoDB!")
+except Exception as e:
+    print(f"An error occurred: {e}")
+
+return client
+</code></pre>
+<p>def create_connect_db(client, db_name):
+    db = client[db_name]
+    return db</p>
+<p>def create_connect_collection(db, col_name):
+    collection = db[col_name]
+    return collection</p>
+<p>def extract_api_data(url):
+    return requests.get(url).json()</p>
+<p>def insert_data(col, data):
+    docs = col.insert_many(data)
+    n_docs_inseridos = len(docs.inserted_ids)
+    return n_docs_inseridos</p>
+<p>if <strong>name</strong> == "<strong>main</strong>":</p>
+<pre><code>uri = "mongodb+srv://pedroeng23:12345@expressnodejs.7kz43zl.mongodb.net/?retryWrites=true&amp;w=majority&amp;appName=expressnodejs"
+#url1 = "https://labdados.com/produtos"
+
+client = connect_mongo(uri)
+db = create_connect_db(client, "db_produtos_desafio")
+col = create_connect_collection(db, "produtos")
+
+data = extract_api_data("https://labdados.com/produtos")
+print(f"\nQuantidade de dados extraidos: {len(data)}")
+
+n_docs = insert_data(col, data)
+print(f"\n Quantidades de docs inseridos: {n_docs}")
+
+client.close()
+</code></pre>
+<p>`</p>
+<h2 id="03-transformando-os-dados-e-salvando-os-produtos-vendidos-a-partir-de-de-2021">03 Transformando os dados e salvando os produtos vendidos a partir de de 2021</h2>
+<p>`
+import pandas as pd
+from extract_and_save import connect_mongo, create_connect_db, create_connect_collection</p>
+<p>def visualize_collection(col):
+    for doc in col.find():
+        print(doc)</p>
+<p>def rename_column(col, col_name, new_name):
+    col.update_many({}, {'$rename': {f"{col_name}": f"{new_name}"}})</p>
+<p>def select_category(category): 
+    query = { "Categoria de Produto": f"{category}"}
+    lista_categoria = []
+    for doc in col.find(query):
+        lista_categoria.append(doc)</p>
+<pre><code>return lista_categoria
+</code></pre>
+<p>def make_regex(col, regex):
+    query= {"Data da Compra": {"$regex": f"{regex}"}}
+    lista_regex = []
+    for doc in col.find(query):
+        lista_regex.append(doc)
+    return lista_regex</p>
+<p>def create_dataframe(lista):
+    df =  pd.DataFrame(lista)
+    return df</p>
+<p>def format_date(df):
+    df["Data da Compra"] = pd.to_datetime(df["Data da Compra"], format="%d/%m/%Y")
+    df['Data da Compra'] = df['Data da Compra'].dt.strftime('%Y-%m-%d')</p>
+<p>def save_csv(df, path):
+    df.to_csv(path, index=False)
+    print(f"\nO arquivo {path} foi salvo")</p>
+<p>if <strong>name</strong> == "<strong>main</strong>":</p>
+<pre><code>uri = "mongodb+srv://pedroeng23:12345@expressnodejs.7kz43zl.mongodb.net/?retryWrites=true&amp;w=majority&amp;appName=expressnodejs"
+client = connect_mongo(uri)
+db = create_connect_db(client, "db_produtos_desafio")
+col = create_connect_collection(db, "produtos")
+
+  # renomeando as colunas de latitude e longitude
+rename_column(col, "lat", "Latitude")
+rename_column(col, "lon", "Longitude")
+
+# salvando os dados da categoria livros
+lst_livros = select_category(col, "livros")
+df_livros = create_dataframe(lst_livros)
+format_date(df_livros)
+save_csv(df_livros, "../data_teste/tb_livros.csv")
+
+# salvando os dados dos produtos vendidos a partir de 2021
+lst_produtos = make_regex(col, "/202[1-9]")
+df_produtos = create_dataframe(lst_produtos)
+format_date(df_produtos)
+save_csv(df_produtos, "../data_teste/tb_produtos.csv")
+</code></pre>
+<p>`</p>
+<h2 id="04-salvando-os-dados-transformados-no-mysql-e-disponibilizando-para-time-de-bi-executa-tambem-um-teste-para-garantir-que-as-funcoes-estao-rodando-corretamente">04 Salvando os dados transformados no MySQL e disponibilizando para time de BI. Executa também um teste para garantir que as funções estão rodando corretamente.</h2>
+<p>`
+import mysql.connector
+import pandas as pd</p>
+<p>def connect_mysql(host_name, user_name, pw):
+    cnx = mysql.connector.connect(
+        host=host_name,
+        user=user_name,
+        password=pw
+    )
+    print("Conexão estabelecida:", cnx)
+    return cnx</p>
+<p>def create_cursor(cnx):
+    cursor = cnx.cursor()
+    return cursor</p>
+<p>def create_database(cursor, db_name):
+    query = f"CREATE DATABASE IF NOT EXISTS {db_name};"
+    cursor.execute(query)
+    print(f"Banco de dados '{db_name}' criado ou já existe.")</p>
+<p>def show_databases(cursor):
+    cursor.execute('SHOW DATABASES;')
+    databases = cursor.fetchall()
+    print("Bancos de dados disponíveis:")
+    for db in databases:
+        print(db)</p>
+<p>def create_product_table(cursor, db_name, tb_name):
+    query = f"""
+    CREATE TABLE IF NOT EXISTS {db_name}.{tb_name}(
+        id VARCHAR(100),
+        Produto VARCHAR(100),
+        Categoria_Produto VARCHAR(100),
+        Preco DECIMAL(10,2),
+        Frete DECIMAL(10,2),
+        Data_Compra DATE,
+        Vendedor VARCHAR(100),
+        Local_Compra VARCHAR(100),
+        Avaliacao_Compra INT,
+        Tipo_Pagamento VARCHAR(100),
+        Qntd_Parcelas INT,
+        Latitude DECIMAL(10,2),
+        Longitude DECIMAL(10,2),
+        PRIMARY KEY (id)
+    );
+    """
+    cursor.execute(query)
+    print(f"Tabela '{tb_name}' criada ou já existe no banco de dados '{db_name}'.")</p>
+<p>def show_tables(cursor, db_name):
+    query = f"USE {db_name};"
+    cursor.execute(query)
+    cursor.fetchall()  # Certifique-se de que todos os resultados anteriores foram lidos
+    cursor.execute("SHOW TABLES;")
+    tables = cursor.fetchall()
+    print(f"Tabelas no banco de dados '{db_name}':")
+    for tb in tables:
+        print(tb)</p>
+<p>def read_csv(path): 
+    df = pd.read_csv(path)
+    return df</p>
+<p>def add_product_data(cnx, cursor, df, db_name, tb_name):
+    lista_dados = [tuple(row) for i, row in df.iterrows()]
+    sql_2021 = f"INSERT INTO {db_name}.{tb_name} VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s);"
+    cursor.executemany(sql_2021, lista_dados)
+    cnx.commit()
+    print(f"Dados inseridos na tabela '{tb_name}' do banco de dados '{db_name}'.")</p>
+<p>def test_database_operations():
+    host_name = 'localhost'
+    user_name = 'dalsin19'
+    pw = '12345'</p>
+<pre><code>conexao = connect_mysql(host_name, user_name, pw)
+cursor = create_cursor(conexao)
+
+nome_banco = 'db_produtos_teste'
+create_database(cursor, nome_banco)
+
+show_databases(cursor)
+
+nome_tabela = 'tb_livros'
+create_product_table(cursor, nome_banco, nome_tabela)
+
+show_tables(cursor, nome_banco)
+
+path = '/home/daln19/pipeline-python-mongo-mysql/data/tabela_livros.csv'
+df = read_csv(path)
+
+add_product_data(conexao, cursor, df, nome_banco, nome_tabela)
+</code></pre>
+<p>if <strong>name</strong> == "<strong>main</strong>":
+    test_database_operations()</p>
+<p>`</p></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '..';</script>
+        <script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/mkdocs.js"></script>
+			<script src="../search/main.js" defer></script>
+
+</body>
+
+</html>
